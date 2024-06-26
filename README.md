@@ -3,4 +3,4 @@ CSS Snippets for Discord, Vencord QuickCSS (Desktop &amp; Web) or Stylus (Extens
 
 - You Can either use **@import** or paste the entire thing, both work.
 
-- **Customize Clyde** (Also known as Clyde To Viggy) was made by discord user **krekevyks1337 (237616896948699136)**! all I did was fix it and make it easier to customize.
+- **Customize Clyde** (Also known as Clyde To Viggy) was made by discord user **krekevyks1337 (237616896948699136)**! all I did was fix it [it didnt work for me for some reason] and make it easier to customize.
