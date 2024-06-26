@@ -34,3 +34,18 @@ all I did was fix it  [it didnt work for me for some reason] and make it easier 
   visibility: visible;
   content: var(--customClydeBanner);
 }
+
+[aria-label="clyde"] [class^="textBadge_"] {
+    visibility: visible;
+    content: var(--clydeBadgeContent);
+    min-width: 30px !important;
+    min-height: 30px !important;
+    max-width: 9999px !important;
+    max-height: 9999px !important;
+    height: var(--clydeBadgeHeight) !important;
+    width: var(--clydeBadgeWidth) !important;
+    padding: var(--clydeBadgePadding);
+}
+[aria-label="clyde"] [class*="base"] {
+    background-color: var(--clydeBadgeBGColor) !important;
+}
