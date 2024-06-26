@@ -35,17 +35,20 @@ all I did was fix it  [it didnt work for me for some reason] and make it easier 
   content: var(--customClydeBanner);
 }
 
+/* Badge */
 [aria-label="clyde"] [class^="textBadge_"] {
-    visibility: visible;
-    content: var(--clydeBadgeContent);
-    min-width: 30px !important;
-    min-height: 30px !important;
-    max-width: 9999px !important;
-    max-height: 9999px !important;
-    height: var(--clydeBadgeHeight) !important;
-    width: var(--clydeBadgeWidth) !important;
-    padding: var(--clydeBadgePadding);
+  visibility: visible;
+  background-image: var(--clydeBadgeContent);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: var(--clydeBadgeWidth) !important;
+  min-height: var(--clydeBadgeHeight) !important;
+  height: var(--clydeBadgeHeight) !important;
+  width: var(--clydeBadgeWidth) !important;
+  padding: var(--clydeBadgePadding);
+  background-color: var(--clydeBadgeBGColor) !important;
 }
+
 [aria-label="clyde"] [class*="base"] {
-    background-color: var(--clydeBadgeBGColor) !important;
+  background-color: var(--clydeBadgeBGColor) !important;
 }
