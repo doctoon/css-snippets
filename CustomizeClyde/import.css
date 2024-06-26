@@ -1,0 +1,33 @@
+/* Profile Picture */
+[aria-label="clyde, Online"][class^="wrapper_"],
+[aria-label="clyde"] [class^="wrapper_"],
+[aria-label="clyde"][class^="wrapper_"][src^="https://cdn.discordapp.com/avatars/1081004946872352958/a_6170487d32fdfe9f988720ad80e6ab8c"] {
+  content: var(--customClydePic);
+  width: 40px !important;
+  height: 40px !important;
+}
+[aria-label="clyde"] [class^="wrapper_"] {
+  width: 90px !important;
+  height: 90px !important;
+}
+
+/* Name */
+[aria-label="clyde"] [class^="username_"] {
+  visibility: hidden;
+}
+[aria-label="clyde"] [class^="username_"]::before {
+  content: var(--customClydeName);
+  visibility: visible;
+  width: 10px;
+}
+
+/* Popout AI Tag */
+[aria-label="clyde"] [class^="headerBotTag_"] {
+  display: none;
+}
+
+/* Banner */
+[aria-label="clyde"] [class^="banner_"] {
+  visibility: visible;
+  content: var(--customClydeBanner);
+}
